@@ -117,6 +117,7 @@ prf <- performance(pr, measure = 'tpr', x.measure = "fpr")
 plot(prf)
 
 
+
 # Area under ROC (AUR)
 library(InformationValue)
 plotROC(actuals = ytest, predictedScores = classify)  
